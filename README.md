@@ -1,4 +1,4 @@
-# MachineLearning
+# Machine Learning Playground
 Set of machine learning examples and experiments
 
 * [Artificial Neuron](https://github.com/stormy-ua/MachineLearning/blob/master/Artificial%20Neuron/Artificial%20Neuron.ipynb)
