@@ -11,11 +11,23 @@ class Connection:
         self.gradient = gradient
 
 
-class SumNode:
+class Node:
+    __metaclass__ = ABCMeta
+
+    @abstractmethod
+    def forward(self): pass
+
+    @abstractmethod
+    def backward(self): pass
+
+
+class SumNode(Node):
     def __init__(self, in1: Connection, in2: Connection, out: Connection):
         self.in1 = in1
         self.in2 = in2
         self.out = out
+        self.inputs = [in1, in2]
+        self.outputs = [out]
 
     def forward(self):
         self.out.value = self.in1.value + self.in2.value
@@ -25,11 +37,13 @@ class SumNode:
         self.in2.gradient = self.out.gradient
 
 
-class MultiplyNode:
+class MultiplyNode(Node):
     def __init__(self, in1: Connection, in2: Connection, out: Connection):
         self.in1 = in1
         self.in2 = in2
         self.out = out
+        self.inputs = [in1, in2]
+        self.outputs = [out]
 
     def forward(self):
         self.out.value = self.in1.value * self.in2.value
@@ -39,11 +53,13 @@ class MultiplyNode:
         self.in2.gradient = self.in1.value * self.out.gradient
 
 
-class DivNode:
+class DivNode(Node):
     def __init__(self, in1: Connection, in2: Connection, out: Connection):
         self.in1 = in1
         self.in2 = in2
         self.out = out
+        self.inputs = [in1, in2]
+        self.outputs = [out]
 
     def forward(self):
         self.out.value = self.in1.value / self.in2.value
@@ -53,10 +69,12 @@ class DivNode:
         self.in2.gradient = self.in1.value * (-1 / self.in2.value ** 2) * self.out.gradient
 
 
-class ExpNode:
+class ExpNode(Node):
     def __init__(self, in1: Connection, out: Connection):
         self.in1 = in1
         self.out = out
+        self.inputs = [in1]
+        self.outputs = [out]
 
     def forward(self):
         self.out.value = np.exp(self.in1.value)
@@ -65,10 +83,12 @@ class ExpNode:
         self.in1.gradient = np.exp(self.in1.value) * self.out.gradient
 
 
-class LogNode:
+class LogNode(Node):
     def __init__(self, in1: Connection, out: Connection):
         self.in1 = in1
         self.out = out
+        self.inputs = [in1]
+        self.outputs = [out]
 
     def forward(self):
         self.out.value = np.log(self.in1.value)
@@ -77,11 +97,13 @@ class LogNode:
         self.in1.gradient = (1 / self.in1.value) * self.out.gradient
 
 
-class ReduceSumNode:
+class ReduceSumNode(Node):
     def __init__(self, in1: Connection, out: Connection, axis=None):
         self.in1 = in1
         self.out = out
         self.axis = axis
+        self.inputs = [in1]
+        self.outputs = [out]
 
     def forward(self):
         self.out.value = np.sum(self.in1.value, self.axis)
@@ -90,7 +112,7 @@ class ReduceSumNode:
         self.in1.gradient = np.ones(shape=self.in1.value.shape) * self.out.gradient
 
 
-class Node:
+class Node2:
     __metaclass__ = ABCMeta
 
     @abstractmethod
@@ -100,7 +122,7 @@ class Node:
     def backward(self, dy): pass
 
 
-class ReLuNode(Node):
+class ReLuNode(Node2):
     def forward(self, x):
         self.x = x
         return np.maximum(0, x)
@@ -110,7 +132,7 @@ class ReLuNode(Node):
         return grad
 
 
-class SigmoidNode(Node):
+class SigmoidNode(Node2):
     def forward(self, x):
         self.x = x
         self.sigmoid = 1 / (1 + np.exp(-1 * x))
@@ -121,7 +143,7 @@ class SigmoidNode(Node):
         return grad
 
 
-class DropoutNode(Node):
+class DropoutNode(Node2):
     p = 0.5
 
     def forward(self, x):
@@ -135,7 +157,7 @@ class DropoutNode(Node):
         return grad
 
 
-class SoftmaxLossNode(Node):
+class SoftmaxLossNode(Node2):
     def forward(self, x, vectY):
         self.x = x
         self.vectY = vectY
@@ -166,7 +188,7 @@ class SoftmaxLossNode(Node):
         return grad
 
 
-class TanhNode(Node):
+class TanhNode(Node2):
     def forward(self, x):
         self.x = x
         self.tanh = np.tanh(x)
@@ -177,7 +199,7 @@ class TanhNode(Node):
         return grad
 
 
-class MatrixMulNode(Node):
+class MatrixMulNode(Node2):
     def forward(self, X, Y):
         self.Y = Y
         self.X = X
@@ -189,7 +211,7 @@ class MatrixMulNode(Node):
         return grad
 
 
-class HingeLossNode(Node):
+class HingeLossNode(Node2):
     def forward(self, N, x, vectY):
         self.N = N
         self.vectY = vectY
