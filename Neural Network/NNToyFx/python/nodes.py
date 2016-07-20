@@ -4,12 +4,20 @@ from abc import ABCMeta, abstractmethod
 
 class Connection:
     value = 0
-    gradient = 1
+    _gradient = 1
+    degree = 1
 
     def __init__(self, value=0, gradient=1):
         self.value = value
-        self.gradient = gradient
+        self._gradient = gradient
 
+    @property
+    def gradient(self):
+        return self._gradient
+
+    @gradient.setter
+    def gradient(self, value):
+        self._gradient = value
 
 class Node:
     __metaclass__ = ABCMeta
@@ -33,8 +41,8 @@ class SumNode(Node):
         self.out.value = self.in1.value + self.in2.value
 
     def backward(self):
-        self.in1.gradient = self.out.gradient
-        self.in2.gradient = self.out.gradient
+        self.in1.gradient += self.out.gradient
+        self.in2.gradient += self.out.gradient
 
 
 class MultiplyNode(Node):

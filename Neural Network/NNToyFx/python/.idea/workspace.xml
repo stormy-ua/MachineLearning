@@ -49,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/node_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="81" />
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#892#1644#0" expanded="false" />
@@ -77,15 +77,15 @@
       <file leaf-file-name="nodes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.525974">
-              <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.35714287">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#3051#3231#0" expanded="false" />
-                <element signature="e#3516#3752#0" expanded="false" />
-                <element signature="e#4662#4837#0" expanded="false" />
-                <element signature="e#4872#5077#0" expanded="false" />
-                <element signature="e#5112#6210#0" expanded="false" />
+                <element signature="e#3222#3402#0" expanded="false" />
+                <element signature="e#3687#3923#0" expanded="false" />
+                <element signature="e#4833#5008#0" expanded="false" />
+                <element signature="e#5043#5248#0" expanded="false" />
+                <element signature="e#5283#6381#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -95,17 +95,17 @@
         <entry file="file://$PROJECT_DIR$/simulation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#193#291#0" expanded="false" />
                 <element signature="e#335#1106#0" expanded="false" />
-                <element signature="e#1139#1193#0" expanded="false" />
-                <element signature="e#1355#1608#0" expanded="false" />
-                <element signature="e#1997#2250#0" expanded="false" />
-                <element signature="e#2296#2499#0" expanded="false" />
-                <element signature="e#2545#2748#0" expanded="false" />
-                <element signature="e#2814#3029#0" expanded="false" />
+                <element signature="e#1485#1748#0" expanded="false" />
+                <element signature="e#1816#2084#0" expanded="false" />
+                <element signature="e#2147#2410#0" expanded="false" />
+                <element signature="e#2456#2664#0" expanded="false" />
+                <element signature="e#2710#2918#0" expanded="false" />
+                <element signature="e#2984#3204#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -157,10 +157,10 @@
         <option value="$PROJECT_DIR$/NeuralNetwork2LayerCifar10.ipynb" />
         <option value="$PROJECT_DIR$/NeuralNetwork2Layer.py" />
         <option value="$PROJECT_DIR$/tests.py" />
-        <option value="$PROJECT_DIR$/simulation.py" />
         <option value="$PROJECT_DIR$/node_tests.py" />
         <option value="$PROJECT_DIR$/asserts.py" />
         <option value="$PROJECT_DIR$/simulation_tests.py" />
+        <option value="$PROJECT_DIR$/simulation.py" />
         <option value="$PROJECT_DIR$/nodes.py" />
       </list>
     </option>
@@ -233,14 +233,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodes.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_tests.py" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Simulation Tests">
+  <component name="RunManager" selected="Python tests.Nodes Tests">
     <configuration default="false" name="Nodes Tests" type="tests" factoryName="Nosetests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,7 +251,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_tests.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
@@ -500,8 +500,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testForwardSoftmax" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nodes Tests" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nodes Tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testForwardSoftmax" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in MultiplyNodesTests" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in SumNodesTests" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest SumNodesTests.testBackward" />
@@ -522,34 +522,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 32m 19s.xml">
+    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 28m 03s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 28m 31s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 30m 05s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 30m 20s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nodes_Tests - 2016.07.20 at 08h 23m 16s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nodes_Tests - 2016.07.20 at 08h 23m 32s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nodes_Tests - 2016.07.20 at 08h 24m 59s.xml">
+      <configuration name="Nodes Tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Simulation_Tests - 2016.07.19 at 23h 30m 26s.xml">
       <configuration name="Simulation Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 34m 07s.xml">
+    <history-entry file="Simulation_Tests - 2016.07.19 at 23h 30m 29s.xml">
       <configuration name="Simulation Tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 34m 27s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 34m 58s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 35m 33s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 35m 39s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 35m 45s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 37m 59s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 42m 19s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 22h 42m 39s.xml">
+    <history-entry file="Simulation_Tests - 2016.07.19 at 23h 40m 05s.xml">
       <configuration name="Simulation Tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -628,11 +628,11 @@
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3051#3231#0" expanded="false" />
-            <element signature="e#3516#3752#0" expanded="false" />
-            <element signature="e#4662#4837#0" expanded="false" />
-            <element signature="e#4872#5077#0" expanded="false" />
-            <element signature="e#5112#6210#0" expanded="false" />
+            <element signature="e#3222#3402#0" expanded="false" />
+            <element signature="e#3687#3923#0" expanded="false" />
+            <element signature="e#4833#5008#0" expanded="false" />
+            <element signature="e#5043#5248#0" expanded="false" />
+            <element signature="e#5283#6381#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -730,17 +730,17 @@
     <entry file="file://$PROJECT_DIR$/simulation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#193#291#0" expanded="false" />
             <element signature="e#335#1106#0" expanded="false" />
-            <element signature="e#1139#1193#0" expanded="false" />
-            <element signature="e#1355#1608#0" expanded="false" />
-            <element signature="e#1997#2250#0" expanded="false" />
-            <element signature="e#2296#2499#0" expanded="false" />
-            <element signature="e#2545#2748#0" expanded="false" />
-            <element signature="e#2814#3029#0" expanded="false" />
+            <element signature="e#1485#1748#0" expanded="false" />
+            <element signature="e#1816#2084#0" expanded="false" />
+            <element signature="e#2147#2410#0" expanded="false" />
+            <element signature="e#2456#2664#0" expanded="false" />
+            <element signature="e#2710#2918#0" expanded="false" />
+            <element signature="e#2984#3204#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -748,7 +748,7 @@
     <entry file="file://$PROJECT_DIR$/node_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="81" />
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#892#1644#0" expanded="false" />
@@ -762,15 +762,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.525974">
-          <caret line="82" column="70" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3051#3231#0" expanded="false" />
-            <element signature="e#3516#3752#0" expanded="false" />
-            <element signature="e#4662#4837#0" expanded="false" />
-            <element signature="e#4872#5077#0" expanded="false" />
-            <element signature="e#5112#6210#0" expanded="false" />
+            <element signature="e#3222#3402#0" expanded="false" />
+            <element signature="e#3687#3923#0" expanded="false" />
+            <element signature="e#4833#5008#0" expanded="false" />
+            <element signature="e#5043#5248#0" expanded="false" />
+            <element signature="e#5283#6381#0" expanded="false" />
           </folding>
         </state>
       </provider>

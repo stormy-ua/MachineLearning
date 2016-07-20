@@ -45,12 +45,15 @@ class SimulationContext:
     def backward(self):
         [node.backward() for node in reversed(self.sort_topologically())]
 
+    def add_input_connection(self, connection: Connection, operation: Node):
+        self.adjacencyInMap[connection] = operation
+
     def sum(self, in1: Connection, in2: Connection):
         out = Connection()
         operation = SumNode(in1, in2, out)
         self.nodes.append(operation)
-        self.adjacencyInMap[in1] = operation
-        self.adjacencyInMap[in2] = operation
+        self.add_input_connection(in1, operation)
+        self.add_input_connection(in2, operation)
         self.adjacencyOutMap[out] = operation
         return out
 
@@ -58,8 +61,8 @@ class SimulationContext:
         out = Connection()
         operation = MultiplyNode(in1, in2, out)
         self.nodes.append(operation)
-        self.adjacencyInMap[in1] = operation
-        self.adjacencyInMap[in2] = operation
+        self.add_input_connection(in1, operation)
+        self.add_input_connection(in2, operation)
         self.adjacencyOutMap[out] = operation
         return out
 
@@ -67,8 +70,8 @@ class SimulationContext:
         out = Connection()
         operation = DivNode(in1, in2, out)
         self.nodes.append(operation)
-        self.adjacencyInMap[in1] = operation
-        self.adjacencyInMap[in2] = operation
+        self.add_input_connection(in1, operation)
+        self.add_input_connection(in2, operation)
         self.adjacencyOutMap[out] = operation
         return out
 
@@ -76,7 +79,7 @@ class SimulationContext:
         out = Connection()
         operation = ExpNode(in1, out)
         self.nodes.append(operation)
-        self.adjacencyInMap[in1] = operation
+        self.add_input_connection(in1, operation)
         self.adjacencyOutMap[out] = operation
         return out
 
@@ -84,7 +87,7 @@ class SimulationContext:
         out = Connection()
         operation = LogNode(in1, out)
         self.nodes.append(operation)
-        self.adjacencyInMap[in1] = operation
+        self.add_input_connection(in1, operation)
         self.adjacencyOutMap[out] = operation
         return out
 
@@ -92,6 +95,6 @@ class SimulationContext:
         out = Connection()
         operation = ReduceSumNode(in1, out, axis)
         self.nodes.append(operation)
-        self.adjacencyInMap[in1] = operation
+        self.add_input_connection(in1, operation)
         self.adjacencyOutMap[out] = operation
         return out
