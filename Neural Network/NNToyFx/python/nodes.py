@@ -21,14 +21,14 @@ class Connection:
         else:
             self._gradient += value
 
-    def reset_gradient(self, to_value = None):
+    def reset_gradient(self, to_value=None):
         self._gradient = to_value
 
 
 class Node:
     __metaclass__ = ABCMeta
 
-    def __init__(self, inputs = [], outputs = []):
+    def __init__(self, inputs=[], outputs=[]):
         self.inputs = inputs
         self.outputs = outputs
 
@@ -129,6 +129,22 @@ class ReduceSumNode(Node):
 
     def backward(self):
         self.in1.gradient = np.ones(shape=self.in1.value.shape) * self.out.gradient
+
+
+class MatrixMultiplyNode(Node):
+    def __init__(self, in1: Connection, in2: Connection, out: Connection):
+        super().__init__([in1, in2], [out])
+        self.in1 = in1
+        self.in2 = in2
+        self.out = out
+
+    def forward(self):
+        super().forward()
+        self.out.value = self.in1.value.dot(self.in2.value)
+
+    def backward(self):
+        self.in1.gradient = self.out.gradient.dot(self.in2.value.T)
+        self.in2.gradient = self.in1.value.T.dot(self.out.gradient)
 
 
 class Node2:
