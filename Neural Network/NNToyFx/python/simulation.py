@@ -43,6 +43,8 @@ class SimulationContext:
         [node.forward() for node in self.sort_topologically()]
 
     def backward(self):
+        for i in [i for i in self.adjacencyOutMap if i not in self.adjacencyInMap]:
+            i.reset_gradient(1)
         [node.backward() for node in reversed(self.sort_topologically())]
 
     def add_input_connection(self, connection: Connection, operation: Node):

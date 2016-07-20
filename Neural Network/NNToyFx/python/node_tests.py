@@ -17,7 +17,7 @@ class SumNodesTests(unittest.TestCase):
     def testBackward(self):
         in1 = Connection(np.array([0., 1., 2.]))
         in2 = Connection(np.array([3., 4., 5.]))
-        out = Connection(gradient=[7., 8., 9.])
+        out = Connection(gradient=np.array([7., 8., 9.]))
         sum = SumNode(in1, in2, out)
         sum.forward()
         sum.backward()

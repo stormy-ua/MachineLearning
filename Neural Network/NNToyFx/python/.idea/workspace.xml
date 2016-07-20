@@ -24,11 +24,9 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,7 +34,7 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="88">
               <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -48,28 +46,9 @@
       <file leaf-file-name="node_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#892#1644#0" expanded="false" />
-                <element signature="e#1694#2437#0" expanded="false" />
-                <element signature="e#2484#3045#0" expanded="false" />
-                <element signature="e#3092#3653#0" expanded="false" />
-                <element signature="e#3706#5509#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="asserts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asserts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,15 +56,10 @@
       <file leaf-file-name="nodes.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nodes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35714287">
-              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+            <state relative-caret-position="3872">
+              <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#3222#3402#0" expanded="false" />
-                <element signature="e#3687#3923#0" expanded="false" />
-                <element signature="e#4833#5008#0" expanded="false" />
-                <element signature="e#5043#5248#0" expanded="false" />
-                <element signature="e#5283#6381#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,19 +68,29 @@
       <file leaf-file-name="simulation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#193#291#0" expanded="false" />
                 <element signature="e#335#1106#0" expanded="false" />
-                <element signature="e#1485#1748#0" expanded="false" />
-                <element signature="e#1816#2084#0" expanded="false" />
-                <element signature="e#2147#2410#0" expanded="false" />
-                <element signature="e#2456#2664#0" expanded="false" />
-                <element signature="e#2710#2918#0" expanded="false" />
-                <element signature="e#2984#3204#0" expanded="false" />
+                <element signature="e#1601#1864#0" expanded="false" />
+                <element signature="e#1932#2200#0" expanded="false" />
+                <element signature="e#2263#2526#0" expanded="false" />
+                <element signature="e#2572#2780#0" expanded="false" />
+                <element signature="e#2826#3034#0" expanded="false" />
+                <element signature="e#3100#3320#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asserts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asserts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,10 +98,22 @@
       <file leaf-file-name="simulation_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simulation_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="418">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,14 +122,16 @@
       <file leaf-file-name="NeuralNetwork2Layer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NeuralNetwork2Layer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state relative-caret-position="286">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#216#672#0" expanded="false" />
                 <element signature="e#712#735#0" expanded="false" />
+                <element signature="e#805#1379#0" expanded="false" />
                 <element signature="e#1420#1950#0" expanded="false" />
                 <element signature="e#2006#4696#0" expanded="false" />
+                <element signature="e#4738#5035#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -159,15 +157,18 @@
         <option value="$PROJECT_DIR$/tests.py" />
         <option value="$PROJECT_DIR$/node_tests.py" />
         <option value="$PROJECT_DIR$/asserts.py" />
-        <option value="$PROJECT_DIR$/simulation_tests.py" />
-        <option value="$PROJECT_DIR$/simulation.py" />
         <option value="$PROJECT_DIR$/nodes.py" />
+        <option value="$PROJECT_DIR$/simulation.py" />
+        <option value="$PROJECT_DIR$/loss.py" />
+        <option value="$PROJECT_DIR$/simulation_tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -194,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -208,7 +210,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,15 +233,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_tests.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nodes Tests">
+  <component name="RunManager" selected="Python tests.Nosetests in SimulationTests">
     <configuration default="false" name="Nodes Tests" type="tests" factoryName="Nosetests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,69 +258,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in MultiplyNodesTests" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_tests.py" />
-      <option name="CLASS_NAME" value="MultiplyNodesTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in SumNodesTests" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_tests.py" />
-      <option name="CLASS_NAME" value="SumNodesTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest SumNodesTests.testBackward" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_tests.py" />
-      <option name="CLASS_NAME" value="SumNodesTests" />
-      <option name="METHOD_NAME" value="testBackward" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
@@ -346,6 +285,69 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Nosetests in SimulationTests" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simulation_tests.py" />
+      <option name="CLASS_NAME" value="SimulationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest SumNodesTests.testBackward" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/node_tests.py" />
+      <option name="CLASS_NAME" value="SumNodesTests" />
+      <option name="METHOD_NAME" value="testBackward" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest SimulationTests.testBackwardSoftmax" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simulation_tests.py" />
+      <option name="CLASS_NAME" value="SimulationTests" />
+      <option name="METHOD_NAME" value="testBackwardSoftmax" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,6 +363,18 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -493,22 +507,24 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Simulation Tests" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Nodes Tests" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in MultiplyNodesTests" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in SumNodesTests" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testForwardSoftmax" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in SimulationTests" />
       <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest SumNodesTests.testBackward" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testForwardSoftmax" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testBackwardSoftmax" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nodes Tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testForwardSoftmax" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in MultiplyNodesTests" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in SumNodesTests" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest SumNodesTests.testBackward" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in SimulationTests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testBackwardSoftmax" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nodes Tests" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest SumNodesTests.testBackward" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest SimulationTests.testForwardSoftmax" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -517,57 +533,58 @@
       <changelist id="1d1308db-7bd9-4b9d-8730-e1413ded475d" name="Default" comment="" />
       <created>1468282223785</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1468282223785</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 28m 03s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetest_SimulationTests_testBackwardSoftmax - 2016.07.20 at 10h 56m 26s.xml">
+      <configuration name="Nosetest SimulationTests.testBackwardSoftmax" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 28m 31s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetest_SimulationTests_testBackwardSoftmax - 2016.07.20 at 10h 59m 31s.xml">
+      <configuration name="Nosetest SimulationTests.testBackwardSoftmax" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 30m 05s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetest_SimulationTests_testBackwardSoftmax - 2016.07.20 at 11h 02m 00s.xml">
+      <configuration name="Nosetest SimulationTests.testBackwardSoftmax" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nodes_Tests - 2016.07.19 at 23h 30m 20s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 10h 48m 06s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nodes_Tests - 2016.07.20 at 08h 23m 16s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 10h 54m 45s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nodes_Tests - 2016.07.20 at 08h 23m 32s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 10h 56m 02s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nodes_Tests - 2016.07.20 at 08h 24m 59s.xml">
-      <configuration name="Nodes Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 11h 02m 11s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 23h 30m 26s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 11h 02m 55s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 23h 30m 29s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 11h 10m 31s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
-    <history-entry file="Simulation_Tests - 2016.07.19 at 23h 40m 05s.xml">
-      <configuration name="Simulation Tests" configurationId="tests" />
+    <history-entry file="Nosetests_in_SimulationTests - 2016.07.20 at 11h 11m 27s.xml">
+      <configuration name="Nosetests in SimulationTests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446386" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2442702" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863014" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3378076" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -594,27 +611,84 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/node_tests.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="176">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="88">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNetwork2Layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#216#672#0" expanded="false" />
+            <element signature="e#712#735#0" expanded="false" />
+            <element signature="e#805#1379#0" expanded="false" />
+            <element signature="e#1420#1950#0" expanded="false" />
+            <element signature="e#2006#4696#0" expanded="false" />
+            <element signature="e#4738#5035#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -624,29 +698,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3222#3402#0" expanded="false" />
-            <element signature="e#3687#3923#0" expanded="false" />
-            <element signature="e#4833#5008#0" expanded="false" />
-            <element signature="e#5043#5248#0" expanded="false" />
-            <element signature="e#5283#6381#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NeuralNetwork2Layer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#216#672#0" expanded="false" />
             <element signature="e#712#735#0" expanded="false" />
+            <element signature="e#805#1379#0" expanded="false" />
             <element signature="e#1420#1950#0" expanded="false" />
             <element signature="e#2006#4696#0" expanded="false" />
+            <element signature="e#4738#5035#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -658,24 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2943723">
-          <caret line="596" column="0" selection-start-line="596" selection-start-column="0" selection-end-line="596" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python3.5/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/NeuralNetwork2LayerMnist.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -683,23 +737,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NeuralNetwork2Layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#216#672#0" expanded="false" />
-            <element signature="e#712#735#0" expanded="false" />
-            <element signature="e#1420#1950#0" expanded="false" />
-            <element signature="e#2006#4696#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="88">
           <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -707,70 +747,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/numpy/testing/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="876" column="0" selection-start-line="876" selection-start-column="0" selection-end-line="876" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="605" column="35" selection-start-line="605" selection-start-column="35" selection-end-line="605" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/asserts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#193#291#0" expanded="false" />
+            <element signature="e#335#1106#0" expanded="false" />
+            <element signature="e#1601#1864#0" expanded="false" />
+            <element signature="e#1932#2200#0" expanded="false" />
+            <element signature="e#2263#2526#0" expanded="false" />
+            <element signature="e#2572#2780#0" expanded="false" />
+            <element signature="e#2826#3034#0" expanded="false" />
+            <element signature="e#3100#3320#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulation_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="418">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simulation.py">
+    <entry file="file://$PROJECT_DIR$/loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#193#291#0" expanded="false" />
-            <element signature="e#335#1106#0" expanded="false" />
-            <element signature="e#1485#1748#0" expanded="false" />
-            <element signature="e#1816#2084#0" expanded="false" />
-            <element signature="e#2147#2410#0" expanded="false" />
-            <element signature="e#2456#2664#0" expanded="false" />
-            <element signature="e#2710#2918#0" expanded="false" />
-            <element signature="e#2984#3204#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_tests.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNetwork2Layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#892#1644#0" expanded="false" />
-            <element signature="e#1694#2437#0" expanded="false" />
-            <element signature="e#2484#3045#0" expanded="false" />
-            <element signature="e#3092#3653#0" expanded="false" />
-            <element signature="e#3706#5509#0" expanded="false" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#216#672#0" expanded="false" />
+            <element signature="e#712#735#0" expanded="false" />
+            <element signature="e#805#1379#0" expanded="false" />
+            <element signature="e#1420#1950#0" expanded="false" />
+            <element signature="e#2006#4696#0" expanded="false" />
+            <element signature="e#4738#5035#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287">
-          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        <state relative-caret-position="3872">
+          <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3222#3402#0" expanded="false" />
-            <element signature="e#3687#3923#0" expanded="false" />
-            <element signature="e#4833#5008#0" expanded="false" />
-            <element signature="e#5043#5248#0" expanded="false" />
-            <element signature="e#5283#6381#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -3,11 +3,10 @@ from abc import ABCMeta, abstractmethod
 
 
 class Connection:
-    value = 0
-    _gradient = 1
-    degree = 1
+    value = None
+    _gradient = None
 
-    def __init__(self, value=0, gradient=1):
+    def __init__(self, value=None, gradient=None):
         self.value = value
         self._gradient = gradient
 
@@ -17,13 +16,25 @@ class Connection:
 
     @gradient.setter
     def gradient(self, value):
-        self._gradient = value
+        if self.gradient == None or value is None:
+            self._gradient = value
+        else:
+            self._gradient += value
+
+    def reset_gradient(self, to_value = None):
+        self._gradient = to_value
+
 
 class Node:
     __metaclass__ = ABCMeta
 
+    def __init__(self, inputs = [], outputs = []):
+        self.inputs = inputs
+        self.outputs = outputs
+
     @abstractmethod
-    def forward(self): pass
+    def forward(self):
+        [i.reset_gradient() for i in self.inputs]
 
     @abstractmethod
     def backward(self): pass
@@ -31,29 +42,29 @@ class Node:
 
 class SumNode(Node):
     def __init__(self, in1: Connection, in2: Connection, out: Connection):
+        super().__init__([in1, in2], [out])
         self.in1 = in1
         self.in2 = in2
         self.out = out
-        self.inputs = [in1, in2]
-        self.outputs = [out]
 
     def forward(self):
+        super().forward()
         self.out.value = self.in1.value + self.in2.value
 
     def backward(self):
-        self.in1.gradient += self.out.gradient
-        self.in2.gradient += self.out.gradient
+        self.in1.gradient = self.out.gradient
+        self.in2.gradient = self.out.gradient
 
 
 class MultiplyNode(Node):
     def __init__(self, in1: Connection, in2: Connection, out: Connection):
+        super().__init__([in1, in2], [out])
         self.in1 = in1
         self.in2 = in2
         self.out = out
-        self.inputs = [in1, in2]
-        self.outputs = [out]
 
     def forward(self):
+        super().forward()
         self.out.value = self.in1.value * self.in2.value
 
     def backward(self):
@@ -63,13 +74,13 @@ class MultiplyNode(Node):
 
 class DivNode(Node):
     def __init__(self, in1: Connection, in2: Connection, out: Connection):
+        super().__init__([in1, in2], [out])
         self.in1 = in1
         self.in2 = in2
         self.out = out
-        self.inputs = [in1, in2]
-        self.outputs = [out]
 
     def forward(self):
+        super().forward()
         self.out.value = self.in1.value / self.in2.value
 
     def backward(self):
@@ -79,12 +90,12 @@ class DivNode(Node):
 
 class ExpNode(Node):
     def __init__(self, in1: Connection, out: Connection):
+        super().__init__([in1], [out])
         self.in1 = in1
         self.out = out
-        self.inputs = [in1]
-        self.outputs = [out]
 
     def forward(self):
+        super().forward()
         self.out.value = np.exp(self.in1.value)
 
     def backward(self):
@@ -93,12 +104,12 @@ class ExpNode(Node):
 
 class LogNode(Node):
     def __init__(self, in1: Connection, out: Connection):
+        super().__init__([in1], [out])
         self.in1 = in1
         self.out = out
-        self.inputs = [in1]
-        self.outputs = [out]
 
     def forward(self):
+        super().forward()
         self.out.value = np.log(self.in1.value)
 
     def backward(self):
@@ -107,13 +118,13 @@ class LogNode(Node):
 
 class ReduceSumNode(Node):
     def __init__(self, in1: Connection, out: Connection, axis=None):
+        super().__init__([in1], [out])
         self.in1 = in1
         self.out = out
         self.axis = axis
-        self.inputs = [in1]
-        self.outputs = [out]
 
     def forward(self):
+        super().forward()
         self.out.value = np.sum(self.in1.value, self.axis)
 
     def backward(self):
