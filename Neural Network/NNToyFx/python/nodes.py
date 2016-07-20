@@ -147,6 +147,20 @@ class MatrixMultiplyNode(Node):
         self.in2.gradient = self.in1.value.T.dot(self.out.gradient)
 
 
+class ReLuNode(Node):
+    def __init__(self, in1: Connection, out: Connection):
+        super().__init__([in1], [out])
+        self.in1 = in1
+        self.out = out
+
+    def forward(self):
+        super().forward()
+        self.out.value = np.maximum(0, self.in1.value)
+
+    def backward(self):
+        self.in1.gradient = np.array(self.in1.value > 0, dtype=np.float32) * self.out.gradient
+
+
 class Node2:
     __metaclass__ = ABCMeta
 
@@ -157,7 +171,7 @@ class Node2:
     def backward(self, dy): pass
 
 
-class ReLuNode(Node2):
+class ReLuNode2(Node2):
     def forward(self, x):
         self.x = x
         return np.maximum(0, x)

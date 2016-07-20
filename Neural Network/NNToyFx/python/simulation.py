@@ -68,6 +68,15 @@ class SimulationContext:
         self.adjacencyOutMap[out] = operation
         return out
 
+    def matrix_multiply(self, in1: Connection, in2: Connection):
+        out = Connection()
+        operation = MatrixMultiplyNode(in1, in2, out)
+        self.nodes.append(operation)
+        self.add_input_connection(in1, operation)
+        self.add_input_connection(in2, operation)
+        self.adjacencyOutMap[out] = operation
+        return out
+
     def div(self, in1: Connection, in2: Connection):
         out = Connection()
         operation = DivNode(in1, in2, out)
