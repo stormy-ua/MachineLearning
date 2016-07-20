@@ -146,7 +146,7 @@ class ReduceSumNodesTests(unittest.TestCase):
         assert_array_equal(in1.gradient, np.ones(shape=in1.value.shape) * out.gradient)
 
 
-class MultiplyNodesTests(unittest.TestCase):
+class MatrixMultiplyNodesTests(unittest.TestCase):
     def testForward(self):
         in1 = Connection(np.array([[0., 1., 2.], [3., 4., 5.]]))
         in2 = Connection(np.array([6., 7., 8.]))
@@ -163,11 +163,11 @@ class MultiplyNodesTests(unittest.TestCase):
         operation.forward()
         operation.backward()
         grad = [
-            [numericalGradient(operation, in1, out, np.array([[1., 0., 0.], [0., 0., 0.]]))[0],
-             numericalGradient(operation, in1, out, np.array([[0., 1., 0.], [0., 0., 0.]]))[0],
-             numericalGradient(operation, in1, out, np.array([[0., 0., 1.], [0., 0., 0.]]))[0]],
-            [numericalGradient(operation, in1, out, np.array([[0., 0., 0.], [1., 0., 0.]]))[1],
-             numericalGradient(operation, in1, out, np.array([[0., 0., 0.], [0., 1., 0.]]))[1],
-             numericalGradient(operation, in1, out, np.array([[0., 0., 0.], [0., 0., 1.]]))[1]]
+            [numericalGradient(operation, in1, out, np.array([[1., 0., 0.], [0., 0., 0.]]))[0, 0],
+             numericalGradient(operation, in1, out, np.array([[0., 1., 0.], [0., 0., 0.]]))[0, 0],
+             numericalGradient(operation, in1, out, np.array([[0., 0., 1.], [0., 0., 0.]]))[0, 0]],
+            [numericalGradient(operation, in1, out, np.array([[0., 0., 0.], [1., 0., 0.]]))[1, 0],
+             numericalGradient(operation, in1, out, np.array([[0., 0., 0.], [0., 1., 0.]]))[1, 0],
+             numericalGradient(operation, in1, out, np.array([[0., 0., 0.], [0., 0., 1.]]))[1, 0]]
             ]
-        assert_array_equal(in1.gradient, np.array(grad))
+        assert_array_almost_equal(in1.gradient, np.array(grad), 5)
