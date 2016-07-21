@@ -6,7 +6,7 @@ import NeuralNetwork2Layer
 from numpy.testing import *
 
 
-class TestReLuNode(unittest.TestCase):
+class TestReLuNode:#(unittest.TestCase):
     def testForwardPropagationGreaterThan0(self):
         node = ReLuNode()
         self.assertEqual(1, node.forward(1))
@@ -26,7 +26,7 @@ class TestReLuNode(unittest.TestCase):
         self.assertEqual(0, node.backward(1))
 
 
-class TesrNeuralNetworkClassifier(unittest.TestCase):
+class TesrNeuralNetworkClassifier:#(unittest.TestCase):
     def testShouldOverfitScikitLearnMnistSampleDataset(self):
         mnist = datasets.load_digits()
         trainX = np.array(mnist.data)
